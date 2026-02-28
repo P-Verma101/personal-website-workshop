@@ -2,7 +2,7 @@
   "name": "personal-website-workshop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/P-Verma101/personal-website-workshop",
+  "homepage": "https://P-Verma101.github.io/personal-website-workshop",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
