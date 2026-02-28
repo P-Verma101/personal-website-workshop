@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/P-Verma101/personal-website-workshop/static/css/main.9542b90a.css",
-    "main.js": "/P-Verma101/personal-website-workshop/static/js/main.15731cab.js",
-    "static/js/453.fd65e502.chunk.js": "/P-Verma101/personal-website-workshop/static/js/453.fd65e502.chunk.js",
-    "index.html": "/P-Verma101/personal-website-workshop/index.html",
-    "main.9542b90a.css.map": "/P-Verma101/personal-website-workshop/static/css/main.9542b90a.css.map",
-    "main.15731cab.js.map": "/P-Verma101/personal-website-workshop/static/js/main.15731cab.js.map",
-    "453.fd65e502.chunk.js.map": "/P-Verma101/personal-website-workshop/static/js/453.fd65e502.chunk.js.map"
+    "main.css": "/personal-website-workshop/static/css/main.9542b90a.css",
+    "main.js": "/personal-website-workshop/static/js/main.eb301eb0.js",
+    "static/js/453.fd65e502.chunk.js": "/personal-website-workshop/static/js/453.fd65e502.chunk.js",
+    "index.html": "/personal-website-workshop/index.html",
+    "main.9542b90a.css.map": "/personal-website-workshop/static/css/main.9542b90a.css.map",
+    "main.eb301eb0.js.map": "/personal-website-workshop/static/js/main.eb301eb0.js.map",
+    "453.fd65e502.chunk.js.map": "/personal-website-workshop/static/js/453.fd65e502.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9542b90a.css",
-    "static/js/main.15731cab.js"
+    "static/js/main.eb301eb0.js"
   ]
 }
