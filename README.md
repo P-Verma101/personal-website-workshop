@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To just visit the website page use the following link: https://p-verma101.github.io/personal-website-workshop/ 
+
 ## Available Scripts
 
 In the project directory, you can run:
