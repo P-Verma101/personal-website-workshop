@@ -2,34 +2,32 @@ import React from "react";
 import "./Contact.css";
 
 function Contact() {
+  const contactInfo = [
+    {
+      type: "Email Address",
+      value: "vermapurnima200513@gmail.com"
+    },
+    {
+      type: "LinkedIn",
+      value: "https://www.linkedin.com/in/purnimaverma-200513pv/"
+    },
+    {
+      type: "GitHub",
+      value: "https://github.com/purnimaverma200513"
+    }
+  ];
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-
-      <p>
-        If you'd like to get in touch, feel free to reach out through any of the
-        following platforms:
-      </p>
-
-      <p>
-        Email:{" "}
-        <a href="mailto:vermapurnima200513@gmail.com">
-          vermapurnima200513@gmail.com
-        </a>
-      </p>
-
-      <p>
-        LinkedIn:{" "}
-        <a
-          href="https://www.linkedin.com/in/purnimaverma-200513pv/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn Profile
-        </a>
-      </p>
+      <ul className="contact-list">
+        {contactInfo.map((info, index) => (
+          <li key={index} className="contact-item">
+            <strong>{info.type}:</strong> {info.value}
+          </li>
+        ))}
+      </ul>
     </div>
   );
-}
+};
 
 export default Contact;
