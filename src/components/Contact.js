@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 
+    
 function Contact() {
   const contactInfo = [
     {
@@ -18,14 +19,16 @@ function Contact() {
   ];
   return (
     <div className="contact-container">
-      <h1>Contact Me</h1>
-      <ul className="contact-list">
-        {contactInfo.map((info, index) => (
-          <li key={index} className="contact-item">
-            <strong>{info.type}:</strong> {info.value}
-          </li>
-        ))}
-      </ul>
+      <div className="contact-content">
+        <h1>Contact Me</h1>
+        <ul className="contact-list">
+          {contactInfo.map((info, index) => (
+            <li key={index} className="contact-item">
+              <strong>{info.type}:</strong> {info.value}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

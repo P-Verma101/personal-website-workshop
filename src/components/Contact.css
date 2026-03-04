@@ -11,9 +11,22 @@
 .contact-content {
     max-width: 800px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+
 .contact-content h1 {
     font-size: 48px;
     margin-bottom: 20px;
     font-weight: bold;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-item{
+    font-size: 18px;
+    margin: 12px;
 }
