@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import "./Projects.css";
 
 const Projects = () => {
@@ -7,8 +7,15 @@ const Projects = () => {
             name: "Project Portfolio Website",
             description: "A personal website to showcase my projects, skills and experience.", 
             tech: "React, Bootstrap, React Router", 
+            link: "https://github.com/P-Verma101/project-portfolio"
+        },
+        {
+            name: "Fraser Health x WEST MRI Stimulator Project",
+            description: "The user interface design for the MRI Stimulator.", 
+            tech: "Python, PySide, HTML, CSS", 
             link: "https://github.com/yourusername/project-portfolio"
         }
+        
     ];
 
     return (
