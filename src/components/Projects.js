@@ -13,7 +13,7 @@ const Projects = () => {
             name: "Fraser Health x WEST MRI Stimulator Project",
             description: "The user interface design for the MRI Stimulator.", 
             tech: "Python, PySide, HTML, CSS", 
-            link: "https://github.com/yourusername/project-portfolio"
+            link: "https://github.com/UVic-WEST/uvic-west-fraser-health-MRI-simulator"
         }
         
     ];
