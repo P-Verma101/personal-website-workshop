@@ -26,6 +26,12 @@ const Projects = () => {
             description: "This was a simple snake game that I created using Python and the tiktok library. The game is a classic snake game where the player controls a snake that grows in length as it eats food. The objective of the game is to eat as much food as possible without colliding with the walls or the snake's own body.", 
             tech: "Python, Git", 
             link: "https://github.com/P-Verma101/Snake-Game"
+        },
+        {
+            name: "PassMan - Password Manager",
+            description: "This was a simple password manager that I created using SQLite. I also added a GUI component to the project using typescript.",
+            tech: "SQLite, Typescript, React",
+            link: ""
         }
         
     ];
